@@ -1,0 +1,27 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.App {
+  text-align: center;
+}
+
+.store-container {
+  padding-left: 3em;
+  padding-right: 3em; 
+  margin-top: 3em;
+}
+/* .products-container {
+  width: '100%';
+  align-items: 'center';
+  justify-content: 'center';
+  display: 'flex';
+  flex-direction: 'column'
+} */
+.bestProduct {
+  background-color: #DB7090;
+  animation: clignote 2s linear infinite;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0.5;
+  }
+}
